@@ -3,9 +3,13 @@
  
 ### Visual Studio to Visual Studio Code
 
-### Visual Studio is Microsoft’s full-blown commercial IDE, evolving since VS 97, VS 6.0, then VS.Net in 2002, followed by Microsoft’s year naming convention to today's VS 2019. Highly developed, feature rich environment which provides a tremendous amount of help/scaffolding to build and manage projects, and coordinate teams.  If you are planning to do a lot of .Net coding, Visual Studio is your best choice.  VS is not our focus for this demo.
+### Visual Studio is Microsoft’s full-blown commercial IDE
 
-### Visual Studio Code (VSCode), 2015 is a cross-platform (Linux, Mac OS, Windows) code editor that can be extended with plugins to support your needs.  It is now the #1-ranked code editor [stackoverflow.com]. While it can be used as a straightforward editor, it can be extended to the point of being a pretty rich editor.  VS Code effort was led by Erich Gamma (Gang Of Four and Eclipse)
+Evolving since VS 97, VS 6.0, then VS.Net in 2002, followed by Microsoft’s year naming convention to today's VS 2019. Highly developed, feature rich environment which provides a tremendous amount of help/scaffolding to build and manage projects, and coordinate teams.  If you are planning to do a lot of .Net coding, Visual Studio is your best choice.  VS is not our focus for this demo.
+
+### Visual Studio Code (VSCode), 2015 is a cross-platform (Linux, Mac OS, Windows) code editor.
+
+It can be extended with plugins to support your needs.  Code is now the #1-ranked code editor [stackoverflow.com]. While it can be used as a straightforward editor, it can be extended to the point of being a pretty rich IDE.  Microsoft hired Erich Gamma (Gang Of Four and Eclipse) specifically to lead the VSCode effort.
 
 *Features:*
 * Cross-platform
@@ -29,16 +33,20 @@
 * Support for many languages, probably including whichever you use: C, C++, Go, Powershell, R, Ruby, VB, etc, and, of course, Python. Feature support varies across languages.
 * Note: defaults to opt in--collects usage data and sends it to Microsoft, (may be shared with law enforcement).  This telemetry reporting can be disabled. Useful for improving the user experience, but might not be your cup of tea.
 
-Basics:
+**Basics:**
 
-Navigation: The folder in which you begin vscode determines your workspace.  For security reasons, one cannot navigate to parent (including sibling-level) folders. The starting folder workspace determines your effective root.
+**Navigation:** 
 
-Command Pallet (where the magic happens): Cmd-shift-P  (ctrl-shift-p or F1 on Windows)
+The folder in which you begin vscode determines your workspace.  For security reasons, one cannot navigate to parent (including sibling-level) folders. The starting folder workspace determines your effective root.
 
-Extensions:
+**Command Pallet** (where the magic happens): Cmd-shift-P  (ctrl-shift-p or F1 on Windows)
+
+**Extensions:**
+
 Python
 
-Settings:
+**Settings:**
+
 Scope:
 User —> All sessions unless overridden by…
 Workspace: Project-specific
